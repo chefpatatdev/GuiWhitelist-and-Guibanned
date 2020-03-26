@@ -37,13 +37,13 @@ public class GuiWhitelisted extends GuiScreen {
 	{
 
 		message = new ITextComponent[] {
-				new TextComponentString("Hallo,"),
+				new TextComponentString("Hi,,"),
 				new TextComponentString(""),
-				new TextComponentString("Bedankt voor de Midusa-client te gebruiken!"),
+				new TextComponentString("input text"),
 				new TextComponentString(""),
-				new TextComponentString("Op deze client staat wel een whitelist die je moet aanvragen bij chefpatat."),
+				new TextComponentString("input ttext"),
 				new TextComponentString(""),
-				new TextComponentString("Als er om uw HWID gevraagt word:"),
+				new TextComponentString("HWID:"),
 				new TextComponentString(""),
 				new TextComponentString(HWID.get()).setStyle(
 						new Style().setColor(TextFormatting.GOLD)
